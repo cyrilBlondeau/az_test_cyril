@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'grotesk';
+  src: url('./font/AlteHaasGroteskRegular.ttf');
+}
+
+@font-face {
+  font-family: 'groteskBold';
+  src: url('./font/AlteHaasGroteskBold.ttf');
+}
+
+body{
+  width: 80%;
+  margin:0 auto;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0;
+}
+
+h1, h2, h3 {
+ line-height: 1.2;
+ font-family: 'groteskBold';
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  line-height: inherit;
+  font-size: inherit;
+  height: 30px;
+  padding-left:10px;
+}
+
+.addInput {
+  width: 100%;
+}
+
+.app ul {
+  padding: 0;
+}
+
+.app li {
+  list-style-type: none;
+}
+
+.app input[placeholder] {
+  font-family: 'grotesk';
+  font-size: 12px;
+}
+
+.title {
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'groteskBold';
+}
+
+.title input {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  top: 15px;
+  padding: 15px 0 0 0;
+}
+
+.item button {
+  font-family: 'grotesk';
+  font-size: 12px;
+  border: 0;
+  border-radius: 2px;
+  padding: 0 15px;
+  margin: 0 5px;
+  height: 30px;
+}
+
+.btn-delete {
+  background-color: #F64D52;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #D0D0D0;
+  color: #555555;
+}
+
+.updateInput {
+  background-color: #E9E9E9;
+  color: #555555;
+  border: 0;
+  border-radius: 2px;
+  height: 30px;
+  width: 30%;
+  padding: 0 0 0 10px;
+}
+
+.item h2 {
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.itemList input {
+  width: 75%;
+}
